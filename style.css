@@ -1,0 +1,29 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    height: 100vh;
+    padding: 20px;
+    font-size: 10px;
+}
+.left-section {
+    flex: 1;
+    background-color: #81b2dd;
+    padding: 20px;
+    border-radius: 8px;
+}
+.right-section {
+    flex: 1;
+    background-color: #81b2dd;
+    padding: 20px;
+    border-radius: 8px;
+}
+img {
+    width: 20px;
+    height: auto;
+}
+body {
+    background-color: cadetblue;
+}
