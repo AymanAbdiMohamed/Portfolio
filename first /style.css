@@ -1,16 +1,17 @@
 
 .container {
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: flex-start;
     gap: 20px;
     height: 100vh;
-    padding: 10px;
-    font-size: auto;
+    padding: auto;
+    font-size: 150%;
     flex: 1;
     border-radius: 10px;
     flex-direction: column;
-    
+    margin: auto;
+
 }
 
 
