@@ -6,16 +6,17 @@
     gap: 20px;
     height: 100vh;
     padding: 10px;
-    font-size: 10px;
+    font-size: auto;
     flex: 1;
     border-radius: 10px;
+    flex-direction: column;
 }
 .left-section {
     flex: 1;
-    padding: 50px;
+    padding: 10px;
     border-radius: 8px;
-    width: auto;
-    height: auto;
+    width: 100vh;
+    height: 100vh;
     background-color: lightblue;
     transition: 0.3s;
 img {
@@ -29,11 +30,11 @@ img {
 .right-section {
     flex: 1;
     background-color: lightblue;
-    padding: 50px;
+    padding: 10px;
     border-radius: 8px;
     transition: 0.3s;
-    width: auto;
-    height: auto;
+    width: 100vh;
+    height: 100vh;
 }
 a img {
     width: 20px;
