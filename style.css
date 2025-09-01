@@ -6,7 +6,7 @@
     gap: 20px;
     height: 100vh;
     padding: auto;
-    font-size: 170%;
+    font-size: 150%;
     flex: 1;
     border-radius: 10px;
     flex-direction: column;
@@ -16,16 +16,19 @@
 
 .left-section {
     flex: 1;
-    padding: 10px;
-    border-radius: 8px;
-    width: 100vh;
-    height: 100vh;
+    padding: 100px;
+    border-radius: 80px;
+    width: 90vh;
+    height: 50vh;
     background-color: lightblue;
     transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 img {
-    max-width: 70px;
-    height: 70px;
-    border-radius: 50%;
+    max-width: 90px;
+    height: 90px;
+    border-radius: 40%;
     transform: scale(1.2);
     box-shadow: 5px 5px 10px rgba(4, 234, 203, 0.2);
     border: 2px solid rgb(88, 27, 184);
@@ -34,19 +37,34 @@ img {
 .right-section {
     flex: 1;
     background-color: lightblue;
-    padding: 10px;
-    border-radius: 8px;
+    padding: 100px;
+    border-radius: 80px;
     transition: 0.3s;
-    width: 100vh;
-    height: 100vh;
+    width: 90vh;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: lightblue;
+    border-radius: 80px;
+    transition: 0.3s;
+    padding: 20px;
 a img {
-    width: 20px;
+    width: 50px;
     height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
 }
 }
-
-
-.left-section:hover, .right-section:hover {
+.left-section:hover, .right-section:hover .contact-section:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(35, 150, 6, 0.2);
 }
@@ -81,6 +99,12 @@ span h1 {
     color: darkblue;
     text-align: center;
 }
+h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
